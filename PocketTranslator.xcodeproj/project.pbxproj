@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301291DA136B945D0082C06B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301291D9136B945D0082C06B /* UIKit.framework */; };
+		301291DC136B945D0082C06B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301291DB136B945D0082C06B /* Foundation.framework */; };
+		301291DE136B945D0082C06B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301291DD136B945D0082C06B /* CoreGraphics.framework */; };
+		301291E4136B945D0082C06B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 301291E2136B945D0082C06B /* InfoPlist.strings */; };
+		301291E7136B945D0082C06B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 301291E6136B945D0082C06B /* main.m */; };
+		301291EA136B945D0082C06B /* PocketTranslatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 301291E9136B945D0082C06B /* PocketTranslatorAppDelegate.m */; };
+		301291ED136B945D0082C06B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301291EB136B945D0082C06B /* MainWindow.xib */; };
+		301291F0136B945D0082C06B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301291EF136B945D0082C06B /* FirstViewController.m */; };
+		301291F3136B945D0082C06B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301291F2136B945D0082C06B /* SecondViewController.m */; };
+		301291F6136B945D0082C06B /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301291F4136B945D0082C06B /* FirstView.xib */; };
+		301291F9136B945D0082C06B /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301291F7136B945D0082C06B /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		301291D5136B945D0082C06B /* PocketTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		301291D9136B945D0082C06B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		301291DB136B945D0082C06B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		301291DD136B945D0082C06B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		301291E1136B945D0082C06B /* PocketTranslator-Info.plist */ = {isa = PBXFileReference; path = "PocketTranslator-Info.plist"; sourceTree = "<group>"; };
+		301291E3136B945D0082C06B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		301291E5136B945D0082C06B /* PocketTranslator-Prefix.pch */ = {isa = PBXFileReference; path = "PocketTranslator-Prefix.pch"; sourceTree = "<group>"; };
+		301291E6136B945D0082C06B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301291E8136B945D0082C06B /* PocketTranslatorAppDelegate.h */ = {isa = PBXFileReference; path = PocketTranslatorAppDelegate.h; sourceTree = "<group>"; };
+		301291E9136B945D0082C06B /* PocketTranslatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketTranslatorAppDelegate.m; sourceTree = "<group>"; };
+		301291EC136B945D0082C06B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		301291EE136B945D0082C06B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		301291EF136B945D0082C06B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		301291F1136B945D0082C06B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		301291F2136B945D0082C06B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		301291F5136B945D0082C06B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		301291F8136B945D0082C06B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		301291D2136B945D0082C06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301291DA136B945D0082C06B /* UIKit.framework in Frameworks */,
+				301291DC136B945D0082C06B /* Foundation.framework in Frameworks */,
+				301291DE136B945D0082C06B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		301291CA136B945C0082C06B = {
+			isa = PBXGroup;
+			children = (
+				301291DF136B945D0082C06B /* PocketTranslator */,
+				301291D8136B945D0082C06B /* Frameworks */,
+				301291D6136B945D0082C06B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		301291D6136B945D0082C06B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301291D5136B945D0082C06B /* PocketTranslator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		301291D8136B945D0082C06B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				301291D9136B945D0082C06B /* UIKit.framework */,
+				301291DB136B945D0082C06B /* Foundation.framework */,
+				301291DD136B945D0082C06B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301291DF136B945D0082C06B /* PocketTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				301291E8136B945D0082C06B /* PocketTranslatorAppDelegate.h */,
+				301291E9136B945D0082C06B /* PocketTranslatorAppDelegate.m */,
+				301291EB136B945D0082C06B /* MainWindow.xib */,
+				301291EE136B945D0082C06B /* FirstViewController.h */,
+				301291EF136B945D0082C06B /* FirstViewController.m */,
+				301291F1136B945D0082C06B /* SecondViewController.h */,
+				301291F2136B945D0082C06B /* SecondViewController.m */,
+				301291F4136B945D0082C06B /* FirstView.xib */,
+				301291F7136B945D0082C06B /* SecondView.xib */,
+				301291E0136B945D0082C06B /* Supporting Files */,
+			);
+			path = PocketTranslator;
+			sourceTree = "<group>";
+		};
+		301291E0136B945D0082C06B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				301291E1136B945D0082C06B /* PocketTranslator-Info.plist */,
+				301291E2136B945D0082C06B /* InfoPlist.strings */,
+				301291E5136B945D0082C06B /* PocketTranslator-Prefix.pch */,
+				301291E6136B945D0082C06B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		301291D4136B945D0082C06B /* PocketTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301291FC136B945D0082C06B /* Build configuration list for PBXNativeTarget "PocketTranslator" */;
+			buildPhases = (
+				301291D1136B945D0082C06B /* Sources */,
+				301291D2136B945D0082C06B /* Frameworks */,
+				301291D3136B945D0082C06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketTranslator;
+			productName = PocketTranslator;
+			productReference = 301291D5136B945D0082C06B /* PocketTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		301291CC136B945C0082C06B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Vermonster;
+			};
+			buildConfigurationList = 301291CF136B945C0082C06B /* Build configuration list for PBXProject "PocketTranslator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 301291CA136B945C0082C06B;
+			productRefGroup = 301291D6136B945D0082C06B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				301291D4136B945D0082C06B /* PocketTranslator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		301291D3136B945D0082C06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301291E4136B945D0082C06B /* InfoPlist.strings in Resources */,
+				301291ED136B945D0082C06B /* MainWindow.xib in Resources */,
+				301291F6136B945D0082C06B /* FirstView.xib in Resources */,
+				301291F9136B945D0082C06B /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		301291D1136B945D0082C06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301291E7136B945D0082C06B /* main.m in Sources */,
+				301291EA136B945D0082C06B /* PocketTranslatorAppDelegate.m in Sources */,
+				301291F0136B945D0082C06B /* FirstViewController.m in Sources */,
+				301291F3136B945D0082C06B /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		301291E2136B945D0082C06B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301291E3136B945D0082C06B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		301291EB136B945D0082C06B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301291EC136B945D0082C06B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		301291F4136B945D0082C06B /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301291F5136B945D0082C06B /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		301291F7136B945D0082C06B /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301291F8136B945D0082C06B /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		301291FA136B945D0082C06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		301291FB136B945D0082C06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		301291FD136B945D0082C06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketTranslator/PocketTranslator-Prefix.pch";
+				INFOPLIST_FILE = "PocketTranslator/PocketTranslator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		301291FE136B945D0082C06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketTranslator/PocketTranslator-Prefix.pch";
+				INFOPLIST_FILE = "PocketTranslator/PocketTranslator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		301291CF136B945C0082C06B /* Build configuration list for PBXProject "PocketTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301291FA136B945D0082C06B /* Debug */,
+				301291FB136B945D0082C06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301291FC136B945D0082C06B /* Build configuration list for PBXNativeTarget "PocketTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301291FD136B945D0082C06B /* Debug */,
+				301291FE136B945D0082C06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 301291CC136B945C0082C06B /* Project object */;
+}
