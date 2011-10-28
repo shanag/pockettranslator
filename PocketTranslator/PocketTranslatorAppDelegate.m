@@ -3,17 +3,18 @@
 //  PocketTranslator
 //
 //  Created by Shana Golden on 4/29/11.
-//  Copyright 2011 Vermonster. All rights reserved.
+//  Copyright 2011 S. Golden. All rights reserved.
 //
 
 #import "PocketTranslatorAppDelegate.h"
+#import "TranslateNavController.h"
 
 @implementation PocketTranslatorAppDelegate
 
-
 @synthesize window=_window;
-
 @synthesize tabBarController=_tabBarController;
+@synthesize translateNavController = _translateNavController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -67,6 +68,7 @@
 {
     [_window release];
     [_tabBarController release];
+    [_translateNavController release];
     [super dealloc];
 }
 

@@ -3,7 +3,8 @@
 //  PocketTranslator
 //
 //  Created by Shana Golden on 4/29/11.
-//  Copyright 2011 Vermonster. All rights reserved.
+//  Apple ID is greycat92@hotmail.com
+//  Copyright 2011 S. Golden. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -14,10 +14,34 @@
 		301291E7136B945D0082C06B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 301291E6136B945D0082C06B /* main.m */; };
 		301291EA136B945D0082C06B /* PocketTranslatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 301291E9136B945D0082C06B /* PocketTranslatorAppDelegate.m */; };
 		301291ED136B945D0082C06B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301291EB136B945D0082C06B /* MainWindow.xib */; };
-		301291F0136B945D0082C06B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301291EF136B945D0082C06B /* FirstViewController.m */; };
-		301291F3136B945D0082C06B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301291F2136B945D0082C06B /* SecondViewController.m */; };
-		301291F6136B945D0082C06B /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301291F4136B945D0082C06B /* FirstView.xib */; };
-		301291F9136B945D0082C06B /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301291F7136B945D0082C06B /* SecondView.xib */; };
+		301291F0136B945D0082C06B /* TranslateNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301291EF136B945D0082C06B /* TranslateNavController.m */; };
+		301291F3136B945D0082C06B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301291F2136B945D0082C06B /* SettingsViewController.m */; };
+		301291F6136B945D0082C06B /* TranslateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301291F4136B945D0082C06B /* TranslateView.xib */; };
+		301291F9136B945D0082C06B /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301291F7136B945D0082C06B /* SettingsView.xib */; };
+		30129201136B94890082C06B /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 30129200136B94890082C06B /* 19-gear.png */; };
+		3012920F136C93450082C06B /* LanguageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3012920D136C93450082C06B /* LanguageTableViewController.m */; };
+		30129214136C9CFC0082C06B /* TranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30129212136C9CFC0082C06B /* TranslateViewController.m */; };
+		30129217136C9FC70082C06B /* LanguageTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30129216136C9FC70082C06B /* LanguageTableView.xib */; };
+		30129219136CD3BD0082C06B /* languages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30129218136CD3BD0082C06B /* languages.plist */; };
+		3012921C136D8B850082C06B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3012921B136D8B850082C06B /* Constants.m */; };
+		30129229136DA04A0082C06B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3012921E136DA04A0082C06B /* SBJsonWriter.m */; };
+		3012922A136DA04A0082C06B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 30129220136DA04A0082C06B /* SBJsonParser.m */; };
+		3012922B136DA04A0082C06B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 30129222136DA04A0082C06B /* SBJsonBase.m */; };
+		3012922C136DA04A0082C06B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 30129224136DA04A0082C06B /* NSString+SBJSON.m */; };
+		3012922D136DA04A0082C06B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 30129226136DA04A0082C06B /* NSObject+SBJSON.m */; };
+		30129230136DE6150082C06B /* ViewBackgroundGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3012922F136DE6150082C06B /* ViewBackgroundGradient.m */; };
+		3012923C136DF7EF0082C06B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012923B136DF7EF0082C06B /* QuartzCore.framework */; };
+		3012923E136DFAC30082C06B /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = 3012923D136DFAC30082C06B /* world.png */; };
+		30129240136DFC040082C06B /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 3012923F136DFC040082C06B /* gradient.png */; };
+		30129244136E04230082C06B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 30129243136E04230082C06B /* Default.png */; };
+		30129246136E05AD0082C06B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30129245136E05AD0082C06B /* Default@2x.png */; };
+		3012924C136E08300082C06B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3012924B136E08300082C06B /* icon@2x.png */; };
+		3012924E136E083B0082C06B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3012924D136E083B0082C06B /* icon.png */; };
+		30129252136E11680082C06B /* TranslationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30129250136E11670082C06B /* TranslationsTableViewController.m */; };
+		30129253136E11680082C06B /* TranslationsTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30129251136E11670082C06B /* TranslationsTableView.xib */; };
+		30129255136E131A0082C06B /* icon_folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 30129254136E131A0082C06B /* icon_folder.png */; };
+		30129259136F8DE00082C06B /* SavedTranslationsNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30129257136F8DDF0082C06B /* SavedTranslationsNavController.m */; };
+		3012925E136F94AD0082C06B /* SettingsNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3012925C136F94AC0082C06B /* SettingsNavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +49,56 @@
 		301291D9136B945D0082C06B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		301291DB136B945D0082C06B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		301291DD136B945D0082C06B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		301291E1136B945D0082C06B /* PocketTranslator-Info.plist */ = {isa = PBXFileReference; path = "PocketTranslator-Info.plist"; sourceTree = "<group>"; };
+		301291E1136B945D0082C06B /* PocketTranslator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketTranslator-Info.plist"; sourceTree = "<group>"; };
 		301291E3136B945D0082C06B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		301291E5136B945D0082C06B /* PocketTranslator-Prefix.pch */ = {isa = PBXFileReference; path = "PocketTranslator-Prefix.pch"; sourceTree = "<group>"; };
+		301291E5136B945D0082C06B /* PocketTranslator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketTranslator-Prefix.pch"; sourceTree = "<group>"; };
 		301291E6136B945D0082C06B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		301291E8136B945D0082C06B /* PocketTranslatorAppDelegate.h */ = {isa = PBXFileReference; path = PocketTranslatorAppDelegate.h; sourceTree = "<group>"; };
+		301291E8136B945D0082C06B /* PocketTranslatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PocketTranslatorAppDelegate.h; sourceTree = "<group>"; };
 		301291E9136B945D0082C06B /* PocketTranslatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketTranslatorAppDelegate.m; sourceTree = "<group>"; };
 		301291EC136B945D0082C06B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		301291EE136B945D0082C06B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		301291EF136B945D0082C06B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		301291F1136B945D0082C06B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		301291F2136B945D0082C06B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		301291F5136B945D0082C06B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		301291F8136B945D0082C06B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		301291EE136B945D0082C06B /* TranslateNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TranslateNavController.h; sourceTree = "<group>"; };
+		301291EF136B945D0082C06B /* TranslateNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranslateNavController.m; sourceTree = "<group>"; };
+		301291F1136B945D0082C06B /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		301291F2136B945D0082C06B /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		301291F5136B945D0082C06B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TranslateView.xib; sourceTree = "<group>"; };
+		301291F8136B945D0082C06B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SettingsView.xib; sourceTree = "<group>"; };
+		30129200136B94890082C06B /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		3012920C136C93450082C06B /* LanguageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageTableViewController.h; sourceTree = "<group>"; };
+		3012920D136C93450082C06B /* LanguageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageTableViewController.m; sourceTree = "<group>"; };
+		30129211136C9CFC0082C06B /* TranslateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateViewController.h; sourceTree = "<group>"; };
+		30129212136C9CFC0082C06B /* TranslateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslateViewController.m; sourceTree = "<group>"; };
+		30129216136C9FC70082C06B /* LanguageTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LanguageTableView.xib; sourceTree = "<group>"; };
+		30129218136CD3BD0082C06B /* languages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = languages.plist; sourceTree = "<group>"; };
+		3012921A136D8AB80082C06B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		3012921B136D8B850082C06B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		3012921E136DA04A0082C06B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		3012921F136DA04A0082C06B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		30129220136DA04A0082C06B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		30129221136DA04A0082C06B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		30129222136DA04A0082C06B /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		30129223136DA04A0082C06B /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		30129224136DA04A0082C06B /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		30129225136DA04A0082C06B /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		30129226136DA04A0082C06B /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		30129227136DA04A0082C06B /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		30129228136DA04A0082C06B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		3012922E136DE6150082C06B /* ViewBackgroundGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBackgroundGradient.h; sourceTree = "<group>"; };
+		3012922F136DE6150082C06B /* ViewBackgroundGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBackgroundGradient.m; sourceTree = "<group>"; };
+		3012923B136DF7EF0082C06B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3012923D136DFAC30082C06B /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world.png; sourceTree = "<group>"; };
+		3012923F136DFC040082C06B /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		30129243136E04230082C06B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		30129245136E05AD0082C06B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3012924B136E08300082C06B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		3012924D136E083B0082C06B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3012924F136E11670082C06B /* TranslationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationsTableViewController.h; sourceTree = "<group>"; };
+		30129250136E11670082C06B /* TranslationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationsTableViewController.m; sourceTree = "<group>"; };
+		30129251136E11670082C06B /* TranslationsTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TranslationsTableView.xib; sourceTree = "<group>"; };
+		30129254136E131A0082C06B /* icon_folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_folder.png; sourceTree = "<group>"; };
+		30129256136F8DDF0082C06B /* SavedTranslationsNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedTranslationsNavController.h; sourceTree = "<group>"; };
+		30129257136F8DDF0082C06B /* SavedTranslationsNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedTranslationsNavController.m; sourceTree = "<group>"; };
+		3012925B136F94AC0082C06B /* SettingsNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsNavController.h; sourceTree = "<group>"; };
+		3012925C136F94AC0082C06B /* SettingsNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsNavController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3012923C136DF7EF0082C06B /* QuartzCore.framework in Frameworks */,
 				301291DA136B945D0082C06B /* UIKit.framework in Frameworks */,
 				301291DC136B945D0082C06B /* Foundation.framework in Frameworks */,
 				301291DE136B945D0082C06B /* CoreGraphics.framework in Frameworks */,
@@ -57,6 +119,7 @@
 		301291CA136B945C0082C06B = {
 			isa = PBXGroup;
 			children = (
+				301291FF136B94690082C06B /* Resources */,
 				301291DF136B945D0082C06B /* PocketTranslator */,
 				301291D8136B945D0082C06B /* Frameworks */,
 				301291D6136B945D0082C06B /* Products */,
@@ -74,6 +137,7 @@
 		301291D8136B945D0082C06B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3012923B136DF7EF0082C06B /* QuartzCore.framework */,
 				301291D9136B945D0082C06B /* UIKit.framework */,
 				301291DB136B945D0082C06B /* Foundation.framework */,
 				301291DD136B945D0082C06B /* CoreGraphics.framework */,
@@ -84,15 +148,28 @@
 		301291DF136B945D0082C06B /* PocketTranslator */ = {
 			isa = PBXGroup;
 			children = (
+				3012921D136D9FEA0082C06B /* JSON */,
 				301291E8136B945D0082C06B /* PocketTranslatorAppDelegate.h */,
 				301291E9136B945D0082C06B /* PocketTranslatorAppDelegate.m */,
 				301291EB136B945D0082C06B /* MainWindow.xib */,
-				301291EE136B945D0082C06B /* FirstViewController.h */,
-				301291EF136B945D0082C06B /* FirstViewController.m */,
-				301291F1136B945D0082C06B /* SecondViewController.h */,
-				301291F2136B945D0082C06B /* SecondViewController.m */,
-				301291F4136B945D0082C06B /* FirstView.xib */,
-				301291F7136B945D0082C06B /* SecondView.xib */,
+				301291EE136B945D0082C06B /* TranslateNavController.h */,
+				301291EF136B945D0082C06B /* TranslateNavController.m */,
+				30129211136C9CFC0082C06B /* TranslateViewController.h */,
+				30129212136C9CFC0082C06B /* TranslateViewController.m */,
+				3012920C136C93450082C06B /* LanguageTableViewController.h */,
+				3012920D136C93450082C06B /* LanguageTableViewController.m */,
+				30129256136F8DDF0082C06B /* SavedTranslationsNavController.h */,
+				30129257136F8DDF0082C06B /* SavedTranslationsNavController.m */,
+				3012924F136E11670082C06B /* TranslationsTableViewController.h */,
+				30129250136E11670082C06B /* TranslationsTableViewController.m */,
+				3012925B136F94AC0082C06B /* SettingsNavController.h */,
+				3012925C136F94AC0082C06B /* SettingsNavController.m */,
+				301291F1136B945D0082C06B /* SettingsViewController.h */,
+				301291F2136B945D0082C06B /* SettingsViewController.m */,
+				301291F4136B945D0082C06B /* TranslateView.xib */,
+				30129216136C9FC70082C06B /* LanguageTableView.xib */,
+				30129251136E11670082C06B /* TranslationsTableView.xib */,
+				301291F7136B945D0082C06B /* SettingsView.xib */,
 				301291E0136B945D0082C06B /* Supporting Files */,
 			);
 			path = PocketTranslator;
@@ -101,12 +178,50 @@
 		301291E0136B945D0082C06B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3012921B136D8B850082C06B /* Constants.m */,
+				3012921A136D8AB80082C06B /* Constants.h */,
+				3012922E136DE6150082C06B /* ViewBackgroundGradient.h */,
+				3012922F136DE6150082C06B /* ViewBackgroundGradient.m */,
+				30129218136CD3BD0082C06B /* languages.plist */,
 				301291E1136B945D0082C06B /* PocketTranslator-Info.plist */,
 				301291E2136B945D0082C06B /* InfoPlist.strings */,
 				301291E5136B945D0082C06B /* PocketTranslator-Prefix.pch */,
 				301291E6136B945D0082C06B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		301291FF136B94690082C06B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30129254136E131A0082C06B /* icon_folder.png */,
+				3012924B136E08300082C06B /* icon@2x.png */,
+				3012924D136E083B0082C06B /* icon.png */,
+				30129245136E05AD0082C06B /* Default@2x.png */,
+				30129243136E04230082C06B /* Default.png */,
+				3012923F136DFC040082C06B /* gradient.png */,
+				3012923D136DFAC30082C06B /* world.png */,
+				30129200136B94890082C06B /* 19-gear.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3012921D136D9FEA0082C06B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				3012921E136DA04A0082C06B /* SBJsonWriter.m */,
+				3012921F136DA04A0082C06B /* SBJsonWriter.h */,
+				30129220136DA04A0082C06B /* SBJsonParser.m */,
+				30129221136DA04A0082C06B /* SBJsonParser.h */,
+				30129222136DA04A0082C06B /* SBJsonBase.m */,
+				30129223136DA04A0082C06B /* SBJsonBase.h */,
+				30129224136DA04A0082C06B /* NSString+SBJSON.m */,
+				30129225136DA04A0082C06B /* NSString+SBJSON.h */,
+				30129226136DA04A0082C06B /* NSObject+SBJSON.m */,
+				30129227136DA04A0082C06B /* NSObject+SBJSON.h */,
+				30129228136DA04A0082C06B /* JSON.h */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +276,19 @@
 			files = (
 				301291E4136B945D0082C06B /* InfoPlist.strings in Resources */,
 				301291ED136B945D0082C06B /* MainWindow.xib in Resources */,
-				301291F6136B945D0082C06B /* FirstView.xib in Resources */,
-				301291F9136B945D0082C06B /* SecondView.xib in Resources */,
+				301291F6136B945D0082C06B /* TranslateView.xib in Resources */,
+				301291F9136B945D0082C06B /* SettingsView.xib in Resources */,
+				30129201136B94890082C06B /* 19-gear.png in Resources */,
+				30129217136C9FC70082C06B /* LanguageTableView.xib in Resources */,
+				30129219136CD3BD0082C06B /* languages.plist in Resources */,
+				3012923E136DFAC30082C06B /* world.png in Resources */,
+				30129240136DFC040082C06B /* gradient.png in Resources */,
+				30129244136E04230082C06B /* Default.png in Resources */,
+				30129246136E05AD0082C06B /* Default@2x.png in Resources */,
+				3012924C136E08300082C06B /* icon@2x.png in Resources */,
+				3012924E136E083B0082C06B /* icon.png in Resources */,
+				30129253136E11680082C06B /* TranslationsTableView.xib in Resources */,
+				30129255136E131A0082C06B /* icon_folder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +301,20 @@
 			files = (
 				301291E7136B945D0082C06B /* main.m in Sources */,
 				301291EA136B945D0082C06B /* PocketTranslatorAppDelegate.m in Sources */,
-				301291F0136B945D0082C06B /* FirstViewController.m in Sources */,
-				301291F3136B945D0082C06B /* SecondViewController.m in Sources */,
+				301291F0136B945D0082C06B /* TranslateNavController.m in Sources */,
+				301291F3136B945D0082C06B /* SettingsViewController.m in Sources */,
+				3012920F136C93450082C06B /* LanguageTableViewController.m in Sources */,
+				30129214136C9CFC0082C06B /* TranslateViewController.m in Sources */,
+				3012921C136D8B850082C06B /* Constants.m in Sources */,
+				30129229136DA04A0082C06B /* SBJsonWriter.m in Sources */,
+				3012922A136DA04A0082C06B /* SBJsonParser.m in Sources */,
+				3012922B136DA04A0082C06B /* SBJsonBase.m in Sources */,
+				3012922C136DA04A0082C06B /* NSString+SBJSON.m in Sources */,
+				3012922D136DA04A0082C06B /* NSObject+SBJSON.m in Sources */,
+				30129230136DE6150082C06B /* ViewBackgroundGradient.m in Sources */,
+				30129252136E11680082C06B /* TranslationsTableViewController.m in Sources */,
+				30129259136F8DE00082C06B /* SavedTranslationsNavController.m in Sources */,
+				3012925E136F94AD0082C06B /* SettingsNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,20 +337,20 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		301291F4136B945D0082C06B /* FirstView.xib */ = {
+		301291F4136B945D0082C06B /* TranslateView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				301291F5136B945D0082C06B /* en */,
 			);
-			name = FirstView.xib;
+			name = TranslateView.xib;
 			sourceTree = "<group>";
 		};
-		301291F7136B945D0082C06B /* SecondView.xib */ = {
+		301291F7136B945D0082C06B /* SettingsView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				301291F8136B945D0082C06B /* en */,
 			);
-			name = SecondView.xib;
+			name = SettingsView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -255,6 +393,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PocketTranslator/PocketTranslator-Prefix.pch";
@@ -269,6 +411,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PocketTranslator/PocketTranslator-Prefix.pch";
 				INFOPLIST_FILE = "PocketTranslator/PocketTranslator-Info.plist";
